@@ -1,0 +1,1565 @@
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  font: 400 16px/24px PT Sans Narrow, sans-serif;
+  color: #333;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  cursor: default;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+}
+.f-h1,
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+.f-h2,
+h2 {
+  font-size: 26px;
+  line-height: 34px;
+}
+.f-h3,
+h3 {
+  font-size: 22px;
+  line-height: 30px;
+}
+.f-h4,
+h4 {
+  font-size: 18px;
+  line-height: 26px;
+}
+.f-h5,
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.f-h6,
+h6 {
+  font-size: 14px;
+  line-height: 20px;
+}
+p + h1,
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h6 {
+  margin-top: 40px;
+}
+@media (max-width: 900px) {
+  h1 br,
+  h2 br,
+  h3 br,
+  h4 br,
+  h5 br,
+  h6 br {
+    display: none;
+  }
+}
+ol,
+p,
+ul {
+  margin: 20px 0;
+}
+ol,
+ul {
+  padding: 0 0 0 20px;
+}
+li {
+  margin: 5px 0;
+  padding: 0;
+}
+li:first-child,
+ol:first-child,
+p:first-child,
+ul:first-child {
+  margin-top: 0 !important;
+}
+li:last-child,
+ol:last-child,
+p:last-child,
+ul:last-child {
+  margin-bottom: 0 !important;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+table td {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+}
+hr {
+  margin: 40px 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+iframe {
+  max-width: 100%;
+  border: none;
+  overflow: auto;
+}
+b,
+strong {
+  font-weight: 700;
+}
+em,
+i {
+  font-style: italic;
+}
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+nav li,
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button,
+label {
+  cursor: pointer;
+}
+button {
+  display: block;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  font-family: inherit;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+button:active,
+button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+select {
+  cursor: pointer;
+  box-sizing: border-box;
+  color: #333;
+  font-family: inherit;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  line-height: 30px;
+  height: 30px;
+  width: 100%;
+  padding: 0 0 0 20px;
+  border: none;
+  border-radius: 0;
+  background: none;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+select::-ms-expand {
+  display: none;
+}
+select:focus {
+  outline: none;
+}
+a {
+  color: #00f;
+  background-color: initial;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+a:hover {
+  color: #000;
+}
+a:focus {
+  outline: none;
+}
+a img {
+  border: none;
+}
+.f-disabled {
+  opacity: 0.25 !important;
+  pointer-events: none !important;
+}
+.f-hidden {
+  display: none !important;
+}
+@media (max-width: 1800px) {
+  .f-hidden-1800 {
+    display: none !important;
+  }
+}
+@media (max-width: 1200px) {
+  .f-hidden-1200 {
+    display: none !important;
+  }
+}
+@media (max-width: 900px) {
+  .f-hidden-900 {
+    display: none !important;
+  }
+}
+@media (max-width: 600px) {
+  .f-hidden-600 {
+    display: none !important;
+  }
+}
+@media print {
+  .f-hidden-print {
+    display: none !important;
+  }
+}
+.l-page-primary {
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  overflow: hidden;
+}
+.l-page-secondary {
+  background: #eee;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 400px;
+  right: 0;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.l-page-secondary::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .l-page-primary {
+    width: 360px;
+  }
+  .l-page-secondary {
+    left: 360px;
+  }
+}
+@media (max-width: 900px) {
+  .l-page-primary {
+    width: auto;
+    right: 0;
+  }
+  .l-page-secondary {
+    display: none;
+  }
+}
+.l-page-modal {
+  z-index: 2;
+  background: #eee;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 400px;
+  right: 0;
+  overflow: hidden;
+}
+@media (max-width: 1200px) {
+  .l-page-modal {
+    left: 360px;
+  }
+}
+@media (max-width: 900px) {
+  .l-page-modal {
+    left: 0;
+  }
+}
+.FLEET-BUILDER .head {
+  top: 0;
+  height: 90px;
+  padding: 40px 40px 0;
+}
+.FLEET-BUILDER .body,
+.FLEET-BUILDER .head {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.FLEET-BUILDER .body {
+  top: 90px;
+  bottom: 0;
+  overflow-y: scroll;
+  padding: 20px 40px 0;
+  -webkit-overflow-scrolling: touch;
+}
+.FLEET-BUILDER .body::-webkit-scrollbar {
+  display: none;
+}
+.FLEET-BUILDER .logo {
+  display: none;
+}
+.FLEET-BUILDER .section {
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.FLEET-BUILDER .total {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 2px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 0 8px;
+  box-shadow: inset 0 0 0 1px #eee;
+  border-radius: 3px;
+  color: #999;
+}
+.FLEET-BUILDER .section:last-child {
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  border-bottom: none;
+}
+.FLEET-BUILDER .card {
+  position: relative;
+  padding-right: 30px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.FLEET-BUILDER .card:focus {
+  outline: none;
+}
+.FLEET-BUILDER .image {
+  background-color: #ddd;
+  background-position: top;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.FLEET-BUILDER .set {
+  left: -15px;
+}
+.FLEET-BUILDER .dual,
+.FLEET-BUILDER .set {
+  z-index: 1;
+  position: absolute;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #000;
+  background-size: 20px 20px;
+}
+.FLEET-BUILDER .dual {
+  left: 0;
+}
+.FLEET-BUILDER .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.FLEET-BUILDER .points {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 14px;
+}
+.FLEET-BUILDER .actions {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -10px;
+  height: 20px;
+}
+.FLEET-BUILDER .actions button {
+  width: 20px;
+  height: 20px;
+  background: #eee no-repeat 50%/20px 20px;
+  float: right;
+  margin-right: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 5px #eee;
+}
+.FLEET-BUILDER .actions button.view {
+  float: left;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: none;
+  border-radius: 5px;
+}
+.FLEET-BUILDER .actions button.next,
+.FLEET-BUILDER .actions button.prev {
+  border-radius: 0;
+  position: absolute;
+  left: -20px;
+  box-shadow: none;
+  float: none;
+  background-color: initial;
+  margin: 0;
+}
+.FLEET-BUILDER .actions button.prev {
+  top: -10px;
+}
+.FLEET-BUILDER .actions button.next {
+  bottom: -10px;
+}
+@media (min-width: 901px) {
+  .FLEET-BUILDER .card:hover {
+    background: #eee;
+  }
+  .FLEET-BUILDER .card:hover .actions {
+    visibility: visible;
+  }
+}
+@media (max-width: 900px) {
+  .FLEET-BUILDER .card:focus {
+    background: #eee;
+  }
+  .FLEET-BUILDER .card:focus .actions {
+    visibility: visible;
+  }
+  .FLEET-BUILDER .actions button:active {
+    visibility: visible;
+    opacity: 0.001;
+  }
+}
+@media (max-width: 1200px) {
+  .FLEET-BUILDER .head {
+    height: 70px;
+    padding: 20px 20px 0;
+  }
+  .FLEET-BUILDER .body {
+    top: 70px;
+    padding: 20px 20px 0;
+  }
+  .FLEET-BUILDER .section:last-child {
+    padding-bottom: 20px;
+  }
+}
+.FLEET-BUILDER .objectives .add-objective:last-child,
+.FLEET-BUILDER .objectives .card:last-child {
+  margin-bottom: 0;
+}
+.FLEET-BUILDER .objectives .set {
+  z-index: auto;
+  top: 10px;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+}
+.FLEET-BUILDER .ship {
+  padding-left: 90px;
+  height: 40px;
+  line-height: 40px;
+}
+.FLEET-BUILDER .upgrade {
+  margin-left: 20px;
+  padding-left: 70px;
+  height: 30px;
+  line-height: 30px;
+}
+.FLEET-BUILDER .squadron {
+  padding-left: 70px;
+  height: 40px;
+  line-height: 40px;
+}
+.FLEET-BUILDER .objective {
+  padding-left: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.FLEET-BUILDER .ship .image {
+  background-size: 133% auto;
+  width: 80px;
+  height: 40px;
+}
+.FLEET-BUILDER .upgrade .image {
+  background-size: auto 90px;
+  width: 60px;
+  height: 30px;
+}
+.FLEET-BUILDER .squadron .image {
+  background-size: 150% auto;
+  width: 60px;
+  height: 40px;
+}
+.FLEET-BUILDER .ship .actions button.view {
+  width: 80px;
+  height: 40px;
+  margin-top: -10px;
+}
+.FLEET-BUILDER .upgrade .actions button.view {
+  width: 60px;
+  height: 30px;
+  margin-top: -5px;
+}
+.FLEET-BUILDER .squadron .actions button.view {
+  width: 60px;
+  height: 40px;
+  margin-top: -10px;
+}
+.FLEET-BUILDER .objective .actions button.view {
+  width: 20px;
+  height: 20px;
+  background: none !important;
+}
+.FLEET-BUILDER .ship .title {
+  font-size: 18px;
+}
+.FLEET-BUILDER .upgrade + .total {
+  display: block;
+  bottom: 25px;
+}
+.FLEET-BUILDER .squadron + .squadron + .total {
+  display: block;
+  bottom: 30px;
+}
+.FLEET-BUILDER .ship.huge .image {
+  background-size: 230% auto;
+}
+.FLEET-BUILDER .add-ship {
+  font-size: 14px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  color: #666;
+  background: #eee;
+}
+.FLEET-BUILDER .add-ship,
+.FLEET-BUILDER .add-squadron {
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  height: 40px;
+  line-height: 40px;
+}
+.FLEET-BUILDER .add-squadron {
+  position: relative;
+  font-size: 11px;
+  padding-left: 70px;
+  padding-right: 20px;
+  color: #999;
+}
+.FLEET-BUILDER .add-squadron .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  background: url(/img/icon-add.svg) #eee no-repeat 50%/20px 20px;
+}
+.FLEET-BUILDER .add-objective {
+  position: relative;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 30px;
+  padding-right: 20px;
+  color: #999;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.FLEET-BUILDER .add-objective .icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #eee;
+}
+.FLEET-BUILDER .add-upgrade {
+  position: relative;
+  margin-left: 20px;
+  padding-left: 70px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.FLEET-BUILDER .add-upgrade:focus {
+  outline: none;
+}
+.FLEET-BUILDER .add-upgrade .label {
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: #999;
+  vertical-align: top;
+}
+.FLEET-BUILDER .add-upgrade .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  background: url(/img/icon-add.svg) #eee no-repeat 50%/20px 20px;
+}
+.FLEET-BUILDER .add-upgrade .upgrades {
+  visibility: hidden;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 5px;
+  background: #eee;
+  border-radius: 5px;
+}
+.FLEET-BUILDER .add-upgrade button {
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: #000 no-repeat 50%/20px 20px;
+  margin: 5px 5px 5px 0;
+}
+@media (min-width: 901px) {
+  .FLEET-BUILDER .add-upgrade:hover {
+    background: #eee;
+  }
+  .FLEET-BUILDER .add-upgrade:hover .upgrades {
+    visibility: visible;
+  }
+}
+@media (max-width: 900px) {
+  .FLEET-BUILDER .add-upgrade:focus {
+    background: #eee;
+  }
+  .FLEET-BUILDER .add-upgrade:focus .upgrades {
+    visibility: visible;
+  }
+  .FLEET-BUILDER .add-upgrade button:active {
+    visibility: visible;
+    opacity: 0.001;
+  }
+}
+.FLEET-BUILDER .fleet-details {
+  position: relative;
+  padding: 0 40px 20px;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #eee;
+}
+.FLEET-BUILDER .fleet-details .faction {
+  background: #fff no-repeat 50%/30px 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.FLEET-BUILDER .fleet-details .fleet-name input {
+  display: block;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  color: #333;
+  font-size: 18px;
+  line-height: 30px;
+  height: 30px;
+  width: 100%;
+  text-overflow: ellipsis;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.FLEET-BUILDER .fleet-details .fleet-name input:focus {
+  outline: none;
+}
+.FLEET-BUILDER .fleet-details .fleet-name span {
+  display: none;
+}
+.FLEET-BUILDER .fleet-details .fleet-points {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 18px;
+}
+.FLEET-BUILDER .fleet-actions {
+  position: relative;
+  height: 40px;
+}
+.FLEET-BUILDER .fleet-actions .primary {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #666;
+  background: #eee;
+  float: left;
+}
+.FLEET-BUILDER .fleet-actions .secondary {
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  height: 20px;
+  line-height: 20px;
+  color: #999;
+  float: left;
+  margin: 10px 0 10px 20px;
+}
+.FLEET-BUILDER .fleet-actions .back,
+.FLEET-BUILDER .fleet-actions .delete,
+.FLEET-BUILDER .fleet-actions .duplicate,
+.FLEET-BUILDER .fleet-actions .export,
+.FLEET-BUILDER .fleet-actions .print {
+  display: block;
+  opacity: 0.4;
+  width: 20px;
+  height: 20px;
+  background: no-repeat 50%;
+  background-size: 20px 20px;
+  float: right;
+  margin: 10px 5px 0 0;
+  text-indent: -9999px;
+}
+@media (display-mode: standalone) {
+  .FLEET-BUILDER .fleet-actions .export {
+    display: none;
+  }
+}
+.FLEET-CARDS {
+  padding: 40px;
+}
+.FLEET-CARDS .section {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+.FLEET-CARDS .section:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.FLEET-CARDS .cards {
+  overflow: hidden;
+  margin: -5px;
+}
+.FLEET-CARDS .card {
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  padding: 5px;
+  width: 23%;
+  max-width: 250px;
+}
+.FLEET-CARDS .name {
+  overflow: hidden;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  font-size: 18px;
+}
+.FLEET-CARDS .image {
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  padding-bottom: 139.585%;
+  background: rgba(0, 0, 0, 0.07) no-repeat 50%;
+  background-size: cover;
+}
+.FLEET-CARDS .points {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #fff;
+  width: 32px;
+  height: 18px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 18px;
+}
+.FLEET-CARDS .upgrade {
+  width: 15%;
+  max-width: 164px;
+}
+.FLEET-CARDS .upgrade .title {
+  font-size: 16px;
+  line-height: 20px;
+}
+.FLEET-CARDS .ship.huge {
+  width: 39%;
+  max-width: 423px;
+}
+.FLEET-CARDS .ship .image {
+  padding-bottom: 172.085%;
+}
+.FLEET-CARDS .upgrade .image {
+  padding-bottom: 150%;
+}
+.FLEET-CARDS .ship.huge .image {
+  padding-bottom: 81.116%;
+}
+.FLEET-CARDS .view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: none !important;
+}
+@media (max-width: 1200px) {
+  .FLEET-CARDS {
+    padding: 20px;
+  }
+  .FLEET-CARDS .section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+}
+.SELECT .head {
+  top: 0;
+  height: 90px;
+  padding: 40px 40px 0;
+}
+.SELECT .body,
+.SELECT .head {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.SELECT .body {
+  top: 90px;
+  bottom: 0;
+  overflow-y: scroll;
+  padding: 20px 40px 40px;
+  -webkit-overflow-scrolling: touch;
+}
+.SELECT .body::-webkit-scrollbar {
+  display: none;
+}
+.SELECT .heading {
+  position: relative;
+  padding: 0 30px 20px 0;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  text-transform: capitalize;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.SELECT .close {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: url(/img/icon-close.svg) #ddd no-repeat 50%/20px 20px;
+}
+.SELECT .filter {
+  border-bottom: 1px solid #ddd;
+  margin: -20px 0 20px;
+  padding: 10px 0;
+  line-height: 30px;
+}
+.SELECT .filter button {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: #999;
+  text-transform: uppercase;
+  margin-right: 20px;
+  vertical-align: top;
+  line-height: 30px;
+  height: 30px;
+}
+.SELECT .filter button.selected {
+  color: #333;
+}
+.SELECT .filter .select {
+  display: none;
+  position: relative;
+  max-width: 240px;
+}
+.SELECT .filter .select:after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  border: 2px solid #333;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg) scale(0.75);
+  transform: rotate(45deg) scale(0.75);
+  position: absolute;
+  top: 10px;
+  left: 2px;
+}
+.SELECT .cards {
+  margin: -5px;
+}
+.SELECT .cards:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.SELECT .card {
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  padding: 5px;
+  width: 50%;
+  max-width: 250px;
+}
+.SELECT .name {
+  overflow: hidden;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  font-size: 18px;
+}
+.SELECT .image {
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  padding-bottom: 139.585%;
+  background: rgba(0, 0, 0, 0.07) no-repeat 50%;
+  background-size: cover;
+}
+.SELECT .points {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #fff;
+  width: 32px;
+  height: 18px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 18px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.SELECT .upgrade {
+  width: 33.3%;
+  max-width: 164px;
+}
+.SELECT .ship.huge {
+  width: 100%;
+  max-width: 423px;
+}
+.SELECT .ship .image {
+  padding-bottom: 172.085%;
+}
+.SELECT .upgrade .image {
+  padding-bottom: 150%;
+}
+.SELECT .ship.huge .image {
+  padding-bottom: 81.116%;
+}
+.SELECT .assault .points,
+.SELECT .defense .points,
+.SELECT .navigation .points {
+  display: none;
+}
+.SELECT .add {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.SELECT .selected {
+  opacity: 1 !important;
+}
+.SELECT .selected .image {
+  box-shadow: 0 0 0 2px #3e7ef8, inset 0 0 0 200px rgba(62, 126, 248, 0.15);
+}
+.SELECT hr {
+  clear: both;
+  margin: 0 5px 15px;
+  padding: 15px 0 0;
+  border-color: #ddd;
+}
+.SELECT hr:first-child,
+.SELECT hr:last-child {
+  display: none;
+}
+.SELECT.alt-add .heading:before {
+  content: "Add ";
+}
+.SELECT.alt-swap .heading:before {
+  content: "Swap ";
+}
+@media (max-width: 1200px) {
+  .SELECT .head {
+    height: 70px;
+    padding: 20px 20px 0;
+  }
+  .SELECT .body {
+    top: 70px;
+    padding: 20px;
+  }
+  .SELECT .filter .buttons {
+    display: none;
+  }
+  .SELECT .filter .select {
+    display: block;
+  }
+  .SELECT .close {
+    top: 20px;
+    right: 20px;
+  }
+}
+.VIEW .head {
+  top: 0;
+  height: 90px;
+  padding: 40px 40px 0;
+}
+.VIEW .body,
+.VIEW .head {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.VIEW .body {
+  top: 90px;
+  bottom: 0;
+  overflow-y: scroll;
+  padding: 20px 40px 40px;
+  -webkit-overflow-scrolling: touch;
+}
+.VIEW .body::-webkit-scrollbar {
+  display: none;
+}
+.VIEW .heading {
+  position: relative;
+  padding: 0 30px 20px 0;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  text-transform: capitalize;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.VIEW .close {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: url(/img/icon-close.svg) #ddd no-repeat 50%/20px 20px;
+}
+.VIEW .details {
+  overflow: hidden;
+}
+.VIEW .details .card {
+  float: left;
+}
+.VIEW .details .faq {
+  display: none;
+  overflow: hidden;
+  max-width: 300px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 0 0 20px;
+}
+.VIEW .details .faq p,
+.VIEW .details .faq ul {
+  margin: 10px 0;
+}
+@media (max-width: 1200px) {
+  .VIEW .head {
+    height: 70px;
+    padding: 20px 20px 0;
+  }
+  .VIEW .body {
+    top: 70px;
+    padding: 20px;
+  }
+  .VIEW .close {
+    top: 20px;
+    right: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .VIEW .details .card {
+    float: none;
+  }
+  .VIEW .details .faq {
+    padding: 20px 0 0;
+  }
+}
+.remove {
+  background-image: url(/img/icon-remove.svg) !important;
+}
+.swap {
+  background-image: url(/img/icon-swap.svg) !important;
+}
+.increment {
+  background-image: url(/img/icon-increment.svg) !important;
+}
+.decrement {
+  background-image: url(/img/icon-decrement.svg) !important;
+}
+.duplicate {
+  background-image: url(/img/icon-duplicate.svg) !important;
+}
+.variants {
+  background-image: url(/img/icon-variants.svg) !important;
+}
+.view {
+  background-image: url(/img/icon-view.svg) !important;
+}
+.prev {
+  background-image: url(/img/icon-prev.svg) !important;
+}
+.next {
+  background-image: url(/img/icon-next.svg) !important;
+}
+.back {
+  background-image: url(/img/icon-back.svg) !important;
+}
+.print {
+  background-image: url(/img/icon-print.svg) !important;
+}
+.delete {
+  background-image: url(/img/icon-remove.svg) !important;
+}
+.export {
+  background-image: url(/img/icon-export.svg) !important;
+}
+.set-commander {
+  background-image: url(/img/icon-commander.gif) !important;
+}
+.set-officer {
+  background-image: url(/img/icon-officer.gif) !important;
+}
+.set-weapons-team {
+  background-image: url(/img/icon-weapons-team.gif) !important;
+}
+.set-support-team {
+  background-image: url(/img/icon-support-team.gif) !important;
+}
+.set-fleet-command {
+  background-image: url(/img/icon-fleet-command.gif) !important;
+}
+.set-fleet-support {
+  background-image: url(/img/icon-fleet-support.gif) !important;
+}
+.set-offensive-retrofit {
+  background-image: url(/img/icon-offensive-retrofit.gif) !important;
+}
+.set-defensive-retrofit {
+  background-image: url(/img/icon-defensive-retrofit.gif) !important;
+}
+.set-experimental-retrofit {
+  background-image: url(/img/icon-experimental-retrofit.gif) !important;
+}
+.set-ordnance {
+  background-image: url(/img/icon-ordnance.gif) !important;
+}
+.set-ion-cannons {
+  background-image: url(/img/icon-ion-cannons.gif) !important;
+}
+.set-turbolasers {
+  background-image: url(/img/icon-turbolasers.gif) !important;
+}
+.set-title {
+  background-image: url(/img/icon-title.gif) !important;
+}
+.set-super-weapon {
+  background-image: url(/img/icon-super-weapon.gif) !important;
+}
+.set-assault {
+  background-color: #ec3e3b !important;
+}
+.set-defense {
+  background-color: #faed13 !important;
+}
+.set-navigation {
+  background-color: #c2e0f3 !important;
+}
+.faction-rebel {
+  background-image: url(/img/logo-rebel.svg) !important;
+}
+.faction-imperial {
+  background-image: url(/img/logo-imperial.svg) !important;
+}
+.faction-republic {
+  background-image: url(/img/logo-republic.svg) !important;
+}
+.faction-separatist {
+  background-image: url(/img/logo-separatist.svg) !important;
+}
+.faction[data-faction="rebel"] {
+  background-image: url(/img/logo-rebel.svg) !important;
+}
+.faction[data-faction="imperial"] {
+  background-image: url(/img/logo-imperial.svg) !important;
+}
+.faction[data-faction="republic"] {
+  background-image: url(/img/logo-republic.svg) !important;
+}
+.faction[data-faction="separatist"] {
+  background-image: url(/img/logo-separatist.svg) !important;
+}
+.FLEET-BUILDER button.set-weapons-team + button.set-offensive-retrofit {
+  position: relative;
+}
+.FLEET-BUILDER button.set-weapons-team + button.set-offensive-retrofit:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: -5px;
+  width: 5px;
+  height: 10px;
+  border: 1px solid #999;
+  border-width: 1px 0;
+  pointer-events: none;
+}
+.FLEET-BUILDER .card.out-of-stock:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 52px;
+  width: 15px;
+  height: 14px;
+  margin-top: -7px;
+  background: no-repeat 50% url(/img/icon-warning-small.svg);
+}
+.FLEET-BUILDER .ship.out-of-stock:after {
+  left: 72px;
+}
+.FLEET-BUILDER .objective.out-of-stock:after {
+  left: 14px;
+  margin-top: -4px;
+}
+.FLEET-CARDS .card.out-of-stock:before,
+.SELECT .card.out-of-stock:before {
+  content: "";
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  background: no-repeat 50% url(/img/icon-warning.svg);
+  pointer-events: none;
+}
+.FLEET-CARDS .ship.out-of-stock:before,
+.SELECT .ship.out-of-stock:before {
+  height: 22%;
+}
+.FLEET-CARDS .upgrade.out-of-stock:before,
+.SELECT .upgrade.out-of-stock:before {
+  height: 35%;
+}
+.FLEET-CARDS .squadron.out-of-stock:before,
+.SELECT .squadron.out-of-stock:before {
+  height: 37%;
+}
+.FLEET-CARDS .objective.out-of-stock:before,
+.SELECT .assault.out-of-stock:before,
+.SELECT .defense.out-of-stock:before,
+.SELECT .navigation.out-of-stock:before {
+  top: auto;
+  bottom: 0;
+  height: 22%;
+}
+.SELECT .f-disabled.out-of-stock:before {
+  display: none !important;
+}
+.FLEET-BUILDER .card.outdated:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 52px;
+  width: 15px;
+  height: 14px;
+  margin-top: -7px;
+  background: no-repeat 50% url(/img/icon-error-small.svg);
+}
+.FLEET-BUILDER .ship.outdated:after {
+  left: 72px;
+}
+.FLEET-BUILDER .objective.outdated:after {
+  left: 14px;
+  margin-top: -4px;
+}
+.FLEET-CARDS .card.outdated:before {
+  content: "";
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  background: no-repeat 50% url(/img/icon-error.svg);
+  pointer-events: none;
+}
+.FLEET-CARDS .ship.outdated:before {
+  height: 22%;
+}
+.FLEET-CARDS .upgrade.outdated:before {
+  height: 35%;
+}
+.FLEET-CARDS .squadron.outdated:before {
+  height: 37%;
+}
+.FLEET-CARDS .objective.outdated:before {
+  top: auto;
+  bottom: 0;
+  height: 22%;
+}
+@media print {
+  * {
+    overflow: visible !important;
+  }
+  @page {
+    margin: 0.5in;
+    size: letter;
+  }
+  .l-page {
+    margin: 0 auto;
+    width: 680px;
+    height: 920px;
+    color: #000;
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .l-page-modal,
+  .l-page-secondary {
+    display: none;
+  }
+  .l-page-primary {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+  }
+  .FLEET-BUILDER .head {
+    position: static;
+    height: auto;
+    padding: 0 0 60px;
+  }
+  .FLEET-BUILDER .logo {
+    display: block;
+    width: 120px;
+    margin: 0 auto 40px;
+  }
+  .FLEET-BUILDER .fleet-details {
+    padding: 0;
+    margin: 0;
+    height: 20px;
+    line-height: 20px;
+    border-bottom: 2px solid #000;
+  }
+  .FLEET-BUILDER .fleet-details .fleet-name:before {
+    content: "FLEET NAME: ";
+    font-weight: 700;
+  }
+  .FLEET-BUILDER .fleet-details .fleet-name input {
+    display: none;
+  }
+  .FLEET-BUILDER .fleet-details .fleet-name span {
+    display: inline;
+  }
+  .FLEET-BUILDER .fleet-details .faction {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 105px;
+    width: auto;
+    height: auto;
+    background: none !important;
+  }
+  .FLEET-BUILDER .fleet-details .faction:before {
+    content: "FACTION: ";
+    font-weight: 700;
+  }
+  .FLEET-BUILDER .fleet-details .faction-rebel:after {
+    content: "Rebel";
+  }
+  .FLEET-BUILDER .fleet-details .faction-imperial:after {
+    content: "Imperial";
+  }
+  .FLEET-BUILDER .fleet-details .faction-republic:after {
+    content: "Republic";
+  }
+  .FLEET-BUILDER .fleet-details .faction-separatist:after {
+    content: "Separatist";
+  }
+  .FLEET-BUILDER .fleet-details .fleet-points {
+    right: 0;
+    font-size: 14px;
+  }
+  .FLEET-BUILDER .fleet-details .fleet-points:before {
+    content: "POINTS: ";
+    font-weight: 700;
+  }
+  .FLEET-BUILDER .add-objective,
+  .FLEET-BUILDER .add-squadron,
+  .FLEET-BUILDER .add-upgrade,
+  .FLEET-BUILDER .section-actions,
+  .FLEET-BUILDER .section-add-ship {
+    display: none;
+  }
+  .FLEET-BUILDER .body {
+    position: static;
+    padding: 0;
+    margin: -20px;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+  }
+  .FLEET-BUILDER .section {
+    vertical-align: top;
+    display: inline-block;
+    width: 320px;
+    margin: 20px;
+    padding: 21px 0 0;
+    border: none;
+  }
+  .FLEET-BUILDER .actions,
+  .FLEET-BUILDER .dual,
+  .FLEET-BUILDER .image,
+  .FLEET-BUILDER .set {
+    display: none !important;
+  }
+  .FLEET-BUILDER .card {
+    position: relative;
+    border-top: 1px solid #ccc;
+    padding: 0 35px 0 0;
+    margin: 0;
+    border-radius: 0;
+    line-height: 20px;
+    height: 20px;
+  }
+  .FLEET-BUILDER .card.out-of-stock:after,
+  .FLEET-BUILDER .card.outdated:after {
+    display: none;
+  }
+  .FLEET-BUILDER .title {
+    font-size: 14px !important;
+  }
+  .FLEET-BUILDER .card.outdated .title:after {
+    content: " [!]";
+  }
+  .FLEET-BUILDER .points {
+    font-size: 14px !important;
+    right: 0;
+  }
+  .FLEET-BUILDER .total {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto !important;
+    display: block !important;
+    font-size: 14px !important;
+    box-shadow: none;
+    color: #000;
+    padding: 0;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+    border-radius: 0;
+    text-align: right;
+  }
+  .FLEET-BUILDER .total:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  .FLEET-BUILDER .upgrade .title:before {
+    content: "\2022   ";
+  }
+  .FLEET-BUILDER .ship + .total:before,
+  .FLEET-BUILDER .upgrade + .total:before {
+    content: "SHIP ";
+  }
+  .FLEET-BUILDER .squadrons .total:before {
+    content: "SQUADRONS ";
+  }
+  .FLEET-BUILDER .objectives {
+    position: absolute;
+    display: block;
+    width: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .FLEET-BUILDER .objective {
+    border: none;
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .FLEET-BUILDER .set-assault + .title:before {
+    content: "ASSAULT: ";
+    font-weight: 700;
+  }
+  .FLEET-BUILDER .set-defense + .title:before {
+    content: "DEFENSE: ";
+    font-weight: 700;
+  }
+  .FLEET-BUILDER .set-navigation + .title:before {
+    content: "NAVIGATION: ";
+    font-weight: 700;
+  }
+}
+/*# sourceMappingURL=main.47764de2.chunk.css.map */

@@ -1,0 +1,7 @@
+.section.objectives {
+    display: none;
+}
+
+button.export {
+    display: none !important;
+}

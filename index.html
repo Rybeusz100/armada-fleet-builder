@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Armada Fleet Builder</title>
+    <meta
+      name="description"
+      content="A Fleet Builder app for Star Wars: Armada, a miniatures game by Fantasy Flight Games."
+    />
+
+    <link href="/img/favicon.png" rel="shortcut icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+      rel="stylesheet"
+    />
+    <link href="/site/templates/css/main.47764de2.chunk.css" rel="stylesheet" />
+    <!-- <link href="/site/templates/manifest.json" rel="manifest" /> -->
+
+    <style>
+      .HOME {
+        max-width: 240px;
+        margin: 0 auto;
+        padding: 40px 0;
+      }
+
+      .HOME .logo {
+        display: block;
+        margin: 0 auto 40px;
+        width: 120px;
+        height: 68px;
+      }
+
+      .HOME .labels {
+        padding: 30px 0;
+        border-top: 1px solid #eee;
+        overflow: hidden;
+      }
+
+      .HOME .labels label {
+        display: block;
+        width: 25%;
+        float: left;
+        border-radius: 5px;
+      }
+
+      .HOME .labels img {
+        display: block;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+      }
+
+      .HOME .fleets {
+        text-align: center;
+        display: none;
+        padding-bottom: 35px;
+      }
+
+      .HOME .fleets .new {
+        display: block;
+        width: 120px;
+        margin: 0 auto;
+        font-size: 11px;
+        line-height: 13px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        color: #999;
+      }
+
+      .HOME .fleets .list {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 25px 0 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .HOME .fleets .list li {
+        white-space: nowrap;
+        padding: 0;
+        margin: 0;
+      }
+
+      .HOME .fleets .list a {
+        color: #333;
+      }
+
+      .HOME .fleets .list span {
+        font-size: 12px;
+        color: #999;
+        position: relative;
+        top: -5px;
+      }
+
+      .HOME .factions {
+        border-top: 1px solid #eee;
+        padding: 40px 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+      }
+
+      .HOME .factions .new {
+        display: block;
+        width: 25%;
+        float: left;
+      }
+
+      .HOME .factions .new img {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+      }
+
+      .HOME .foot {
+        border-top: 1px solid #eee;
+        padding-top: 40px;
+        text-align: center;
+        font-size: 11px;
+        line-height: 13px;
+      }
+
+      .HOME .foot a {
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        color: #999;
+        padding: 0 10px;
+      }
+
+      .HOME .fleets .list:empty {
+        display: none;
+      }
+      .HOME input {
+        display: none;
+      }
+
+      .HOME input:nth-child(1):checked ~ .container .fleets:nth-child(1),
+      .HOME input:nth-child(2):checked ~ .container .fleets:nth-child(2),
+      .HOME input:nth-child(3):checked ~ .container .fleets:nth-child(3),
+      .HOME input:nth-child(4):checked ~ .container .fleets:nth-child(4) {
+        display: block;
+      }
+
+      .HOME input:nth-child(1):checked ~ .labels label:nth-child(1),
+      .HOME input:nth-child(2):checked ~ .labels label:nth-child(2),
+      .HOME input:nth-child(3):checked ~ .labels label:nth-child(3),
+      .HOME input:nth-child(4):checked ~ .labels label:nth-child(4) {
+        background: #eee;
+      }
+
+      .l-page-primary {
+        overflow: auto;
+      }
+
+      .l-page-primary::-webkit-scrollbar {
+        display: none;
+      }
+
+      .l-page-secondary {
+        background: #000 no-repeat center center url(/img/bg-main.jpg);
+        background-size: cover;
+      }
+
+      @media (max-width: 900px) {
+        html,
+        body {
+          height: auto;
+          overflow: visible;
+        }
+        .l-page-primary {
+          position: static;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="l-page">
+      <div class="l-page-primary">
+        <div class="HOME">
+          <input autocomplete="on" id="rebel" name="faction" type="radio" />
+          <input autocomplete="on" id="imperial" name="faction" type="radio" />
+          <input autocomplete="on" id="republic" name="faction" type="radio" />
+          <input
+            autocomplete="on"
+            id="seperatist"
+            name="faction"
+            type="radio"
+          />
+
+          <a href="/" class="logo"
+            ><img
+              src="/img/logo-armada.svg"
+              width="120"
+              height="68"
+              alt="Ryan Kingston's Armada Fleet Builder"
+          /></a>
+
+          <div class="factions">
+            <a class="new" href="/fleet.html?faction=rebel">
+              <img src="/img/logo-rebel.svg" width="60" height="60" alt="" />
+            </a>
+            <a class="new" href="/fleet.html?faction=imperial">
+              <img src="/img/logo-imperial.svg" width="60" height="60" alt="" />
+            </a>
+            <!-- <a class="new" href="/fleet/republic/">
+              <img src="/img/logo-republic.svg" width="60" height="60" alt="" />
+            </a>
+            <a class="new" href="/fleet/separatist/">
+              <img
+                src="/img/logo-separatist.svg"
+                width="60"
+                height="60"
+                alt=""
+              />
+            </a> -->
+          </div>
+
+          <!-- <div class="foot">
+            <a href="/sign-in/">SIGN IN</a>
+            <a href="/faq/">FAQ</a>
+            <a href="https://www.paypal.me/ryankingston83" target="_blank"
+              >DONATE</a
+            >
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="l-page-secondary"></div>
+  </body>
+</html>
