@@ -1072,6 +1072,7 @@
                     )
                       return !0;
                     if (1019 === e.id && "large" !== c.size) return !0;
+                    if (1017 === e.id && "large" !== c.size) return !0;
                     if (4090 === e.id && "huge" === c.size) return !0;
                     if (
                       4094 === e.id &&
