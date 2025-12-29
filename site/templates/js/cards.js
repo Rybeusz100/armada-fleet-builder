@@ -413,7 +413,7 @@ var cards = {
         title: null,
       },
     },
-    
+
     {
       id: 1330,
       title: "Arquitens Command Cruiser",
@@ -2618,7 +2618,7 @@ var cards = {
       faction: "imperial",
       unique: true,
     },
-    
+
     {
       id: 1070,
       title: "Admiral Screed",
@@ -3325,7 +3325,6 @@ var cards = {
     },
   ],
   "offensive-retrofit": [
-    
     {
       id: 4071,
       title: "B2 Rocket Troopers",
@@ -3716,8 +3715,6 @@ var cards = {
       image: "h9-turbolasers.png",
       set: "turbolasers",
       points: 8,
-      modification: true,
-      version: "1.5.0",
     },
     {
       id: 1470,
@@ -3747,7 +3744,7 @@ var cards = {
       image: "quad-turbolaser-cannons.png",
       set: "turbolasers",
       points: 10,
-      
+
       version: "1.5.0",
     },
     {
