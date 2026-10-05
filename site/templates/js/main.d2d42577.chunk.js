@@ -102,7 +102,7 @@
                           "div",
                           { className: "logo" },
                           o.a.createElement("img", {
-                            src: "/img/logo-armada.svg",
+                            src: "/armada-fleet-builder/img/logo-armada.svg",
                             width: "120",
                             height: "68",
                             alt: "",
@@ -168,7 +168,7 @@
                               o.a.createElement("div", {
                                 className: "image",
                                 style: {
-                                  backgroundImage: "url(/img/cards/".concat(
+                                  backgroundImage: "url(/armada-fleet-builder/img/cards/".concat(
                                     a.image,
                                     ")"
                                   ),
@@ -260,7 +260,7 @@
                                   o.a.createElement("div", {
                                     className: "image",
                                     style: {
-                                      backgroundImage: "url(/img/cards/".concat(
+                                      backgroundImage: "url(/armada-fleet-builder/img/cards/".concat(
                                         a.upgrades[t].image,
                                         ")"
                                       ),
@@ -416,7 +416,7 @@
                               o.a.createElement("div", {
                                 className: "image",
                                 style: {
-                                  backgroundImage: "url(/img/cards/".concat(
+                                  backgroundImage: "url(/armada-fleet-builder/img/cards/".concat(
                                     a.image,
                                     ")"
                                   ),
@@ -670,7 +670,7 @@
                                   ),
                                   o.a.createElement(
                                     "a",
-                                    { className: "secondary", href: "/" },
+                                    { className: "secondary", href: "/armada-fleet-builder" },
                                     "BACK"
                                   ),
                                   o.a.createElement("button", {
@@ -724,7 +724,7 @@
                     o.a.createElement("div", {
                       className: "image",
                       style: {
-                        backgroundImage: "url(/img/cards/".concat(t.image, ")"),
+                        backgroundImage: "url(/armada-fleet-builder/img/cards/".concat(t.image, ")"),
                       },
                     }),
                     o.a.createElement("div", { className: "points" }, t.points),
@@ -761,7 +761,7 @@
                         o.a.createElement("div", {
                           className: "image",
                           style: {
-                            backgroundImage: "url(/img/cards/".concat(
+                            backgroundImage: "url(/armada-fleet-builder/img/cards/".concat(
                               t.upgrades[a].image,
                               ")"
                             ),
@@ -810,7 +810,7 @@
                       o.a.createElement("div", {
                         className: "image",
                         style: {
-                          backgroundImage: "url(/img/cards/".concat(
+                          backgroundImage: "url(/armada-fleet-builder/img/cards/".concat(
                             t.image,
                             ")"
                           ),
@@ -863,7 +863,7 @@
                         o.a.createElement("div", {
                           className: "image",
                           style: {
-                            backgroundImage: "url(/img/cards/".concat(
+                            backgroundImage: "url(/armada-fleet-builder/img/cards/".concat(
                               t[a].image,
                               ")"
                             ),
@@ -1375,7 +1375,7 @@
                                       className: "image",
                                       style: {
                                         backgroundImage:
-                                          "url(/img/cards/".concat(
+                                          "url(/armada-fleet-builder/img/cards/".concat(
                                             t.image,
                                             ")"
                                           ),
@@ -1433,7 +1433,7 @@
                   "div",
                   { className: "card" },
                   o.a.createElement("img", {
-                    src: "/img/cards/".concat(e.card.image),
+                    src: "/armada-fleet-builder/img/cards/".concat(e.card.image),
                     alt: "",
                   })
                 ),

@@ -576,7 +576,7 @@ a img {
   width: 60px;
   height: 40px;
   border-radius: 5px;
-  background: url(/img/icon-add.svg) #eee no-repeat 50%/20px 20px;
+  background: url(/armada-fleet-builder/img/icon-add.svg) #eee no-repeat 50%/20px 20px;
 }
 .FLEET-BUILDER .add-objective {
   position: relative;
@@ -625,7 +625,7 @@ a img {
   width: 60px;
   height: 30px;
   border-radius: 5px;
-  background: url(/img/icon-add.svg) #eee no-repeat 50%/20px 20px;
+  background: url(/armada-fleet-builder/img/icon-add.svg) #eee no-repeat 50%/20px 20px;
 }
 .FLEET-BUILDER .add-upgrade .upgrades {
   visibility: hidden;
@@ -892,7 +892,7 @@ a img {
   width: 30px;
   height: 30px;
   border-radius: 5px;
-  background: url(/img/icon-close.svg) #ddd no-repeat 50%/20px 20px;
+  background: url(/armada-fleet-builder/img/icon-close.svg) #ddd no-repeat 50%/20px 20px;
 }
 .SELECT .filter {
   border-bottom: 1px solid #ddd;
@@ -1092,7 +1092,7 @@ a img {
   width: 30px;
   height: 30px;
   border-radius: 5px;
-  background: url(/img/icon-close.svg) #ddd no-repeat 50%/20px 20px;
+  background: url(/armada-fleet-builder/img/icon-close.svg) #ddd no-repeat 50%/20px 20px;
 }
 .VIEW .details {
   overflow: hidden;
@@ -1135,85 +1135,85 @@ a img {
   }
 }
 .remove {
-  background-image: url(/img/icon-remove.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-remove.svg) !important;
 }
 .swap {
-  background-image: url(/img/icon-swap.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-swap.svg) !important;
 }
 .increment {
-  background-image: url(/img/icon-increment.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-increment.svg) !important;
 }
 .decrement {
-  background-image: url(/img/icon-decrement.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-decrement.svg) !important;
 }
 .duplicate {
-  background-image: url(/img/icon-duplicate.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-duplicate.svg) !important;
 }
 .variants {
-  background-image: url(/img/icon-variants.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-variants.svg) !important;
 }
 .view {
-  background-image: url(/img/icon-view.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-view.svg) !important;
 }
 .prev {
-  background-image: url(/img/icon-prev.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-prev.svg) !important;
 }
 .next {
-  background-image: url(/img/icon-next.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-next.svg) !important;
 }
 .back {
-  background-image: url(/img/icon-back.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-back.svg) !important;
 }
 .print {
-  background-image: url(/img/icon-print.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-print.svg) !important;
 }
 .delete {
-  background-image: url(/img/icon-remove.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-remove.svg) !important;
 }
 .export {
-  background-image: url(/img/icon-export.svg) !important;
+  background-image: url(/armada-fleet-builder/img/icon-export.svg) !important;
 }
 .set-commander {
-  background-image: url(/img/icon-commander.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-commander.gif) !important;
 }
 .set-officer {
-  background-image: url(/img/icon-officer.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-officer.gif) !important;
 }
 .set-weapons-team {
-  background-image: url(/img/icon-weapons-team.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-weapons-team.gif) !important;
 }
 .set-support-team {
-  background-image: url(/img/icon-support-team.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-support-team.gif) !important;
 }
 .set-fleet-command {
-  background-image: url(/img/icon-fleet-command.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-fleet-command.gif) !important;
 }
 .set-fleet-support {
-  background-image: url(/img/icon-fleet-support.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-fleet-support.gif) !important;
 }
 .set-offensive-retrofit {
-  background-image: url(/img/icon-offensive-retrofit.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-offensive-retrofit.gif) !important;
 }
 .set-defensive-retrofit {
-  background-image: url(/img/icon-defensive-retrofit.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-defensive-retrofit.gif) !important;
 }
 .set-experimental-retrofit {
-  background-image: url(/img/icon-experimental-retrofit.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-experimental-retrofit.gif) !important;
 }
 .set-ordnance {
-  background-image: url(/img/icon-ordnance.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-ordnance.gif) !important;
 }
 .set-ion-cannons {
-  background-image: url(/img/icon-ion-cannons.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-ion-cannons.gif) !important;
 }
 .set-turbolasers {
-  background-image: url(/img/icon-turbolasers.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-turbolasers.gif) !important;
 }
 .set-title {
-  background-image: url(/img/icon-title.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-title.gif) !important;
 }
 .set-super-weapon {
-  background-image: url(/img/icon-super-weapon.gif) !important;
+  background-image: url(/armada-fleet-builder/img/icon-super-weapon.gif) !important;
 }
 .set-assault {
   background-color: #ec3e3b !important;
@@ -1225,28 +1225,28 @@ a img {
   background-color: #c2e0f3 !important;
 }
 .faction-rebel {
-  background-image: url(/img/logo-rebel.svg) !important;
+  background-image: url(/armada-fleet-builder/img/logo-rebel.svg) !important;
 }
 .faction-imperial {
-  background-image: url(/img/logo-imperial.svg) !important;
+  background-image: url(/armada-fleet-builder/img/logo-imperial.svg) !important;
 }
 .faction-republic {
-  background-image: url(/img/logo-republic.svg) !important;
+  background-image: url(/armada-fleet-builder/img/logo-republic.svg) !important;
 }
 .faction-separatist {
-  background-image: url(/img/logo-separatist.svg) !important;
+  background-image: url(/armada-fleet-builder/img/logo-separatist.svg) !important;
 }
 .faction[data-faction="rebel"] {
-  background-image: url(/img/logo-rebel.svg) !important;
+  background-image: url(/armada-fleet-builder/img/logo-rebel.svg) !important;
 }
 .faction[data-faction="imperial"] {
-  background-image: url(/img/logo-imperial.svg) !important;
+  background-image: url(/armada-fleet-builder/img/logo-imperial.svg) !important;
 }
 .faction[data-faction="republic"] {
-  background-image: url(/img/logo-republic.svg) !important;
+  background-image: url(/armada-fleet-builder/img/logo-republic.svg) !important;
 }
 .faction[data-faction="separatist"] {
-  background-image: url(/img/logo-separatist.svg) !important;
+  background-image: url(/armada-fleet-builder/img/logo-separatist.svg) !important;
 }
 .FLEET-BUILDER button.set-weapons-team + button.set-offensive-retrofit {
   position: relative;
@@ -1272,7 +1272,7 @@ a img {
   width: 15px;
   height: 14px;
   margin-top: -7px;
-  background: no-repeat 50% url(/img/icon-warning-small.svg);
+  background: no-repeat 50% url(/armada-fleet-builder/img/icon-warning-small.svg);
 }
 .FLEET-BUILDER .ship.out-of-stock:after {
   left: 72px;
@@ -1290,7 +1290,7 @@ a img {
   top: 5px;
   left: 5px;
   right: 5px;
-  background: no-repeat 50% url(/img/icon-warning.svg);
+  background: no-repeat 50% url(/armada-fleet-builder/img/icon-warning.svg);
   pointer-events: none;
 }
 .FLEET-CARDS .ship.out-of-stock:before,
@@ -1325,7 +1325,7 @@ a img {
   width: 15px;
   height: 14px;
   margin-top: -7px;
-  background: no-repeat 50% url(/img/icon-error-small.svg);
+  background: no-repeat 50% url(/armada-fleet-builder/img/icon-error-small.svg);
 }
 .FLEET-BUILDER .ship.outdated:after {
   left: 72px;
@@ -1342,7 +1342,7 @@ a img {
   top: 5px;
   left: 5px;
   right: 5px;
-  background: no-repeat 50% url(/img/icon-error.svg);
+  background: no-repeat 50% url(/armada-fleet-builder/img/icon-error.svg);
   pointer-events: none;
 }
 .FLEET-CARDS .ship.outdated:before {
