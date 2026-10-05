@@ -1,0 +1,1 @@
+This is a modifed version of [the original project](https://armada.ryankingston.com/) containing only the cards I own.
